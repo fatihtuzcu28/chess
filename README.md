@@ -1,2 +1,55 @@
-# chess
- Modern Satranç (Chess) Uygulaması
+# ♟️ Modern Satranç (Chess) Uygulaması
+
+Bu proje, React, TypeScript ve Vite kullanılarak geliştirilmiş, modern ve premium görünümlü bir satranç uygulamasıdır. Hem yerel olarak bir arkadaşınızla hem de derinlemesine düşünme yeteneğine sahip bir Yapay Zekaya (AI) karşı oynayabilirsiniz.
+
+## ✨ Özellikler
+
+- **🤖 Akıllı Yapay Zeka:** Minimax algoritması ve Alpha-Beta Pruning kullanılarak geliştirilmiş, Web Worker üzerinde çalışan ve tarayıcıyı kasmayan AI.
+- **👥 İki Kişilik Mod (PvP):** Yerel olarak arkadaşınızla hamle yapma imkanı.
+- **🔊 Gerçekçi Ses Efektleri:** Ahşap taşların tıkırtısı, taş alma, şah çekme ve rok sesleri gibi Web Audio API ile güçlendirilmiş sesler.
+- **🎨 Premium Tasarım:** Ahşap dokulu satranç tahtası, modern animasyonlar (Framer Motion) ve şık bir karanlık mod arayüzü.
+- **🕒 Hamle Kontrolleri:** Hamleleri geri alma (Undo) ve oyun sıfırlama özellikleri.
+- **💎 Alınan Taşlar & Puan:** Alınan taşların sidebar üzerinde SVG ikonlarıyla gösterilmesi ve materyal avantajı (skor) takibi.
+
+## 🛠️ Teknolojiler
+
+- **Core:** [React 19](https://react.dev/), [TypeScript](https://www.typescriptlang.org/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS 4](https://tailwindcss.com/)
+- **State Management:** [Zustand](https://github.com/pmndrs/zustand)
+- **Engine:** [chess.js](https://github.com/jhlywa/chess.js) (Oyun mantığı ve legal hamle kontrolleri)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **AI Backend:** Web Workers (Arakaplan hesaplamaları için)
+
+## 🚀 Kurulum ve Çalıştırma
+
+Projeyi yerel makinenizde çalıştırmak için şu adımları izleyin:
+
+1.  **Bağımlılıkları Yükleyin:**
+
+    ```bash
+    npm install
+    ```
+
+2.  **Geliştirme Sunucusunu Başlatın:**
+
+    ```bash
+    npm run dev
+    ```
+
+3.  **Tarayıcıda Açın:**
+    Geliştirme sunucusu genellikle `http://localhost:5173` adresinde çalışacaktır.
+
+## 📦 Build (Yayına Hazırlama)
+
+Projeyi üretim için derlemek isterseniz:
+
+```bash
+npm run build
+```
+
+Derlenen dosyalar `dist/` klasöründe yer alacaktır.
+
+---
+
+❤️ Fatih Hocanın öğrencilerine hediyesidir.
